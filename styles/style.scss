@@ -5,16 +5,21 @@
 }
 
 .body {
-  width: 100%;
+  //   position: relative;
   min-height: 100vh;
+  margin: 0 auto;
+  width: 80%;
+  font-family: "roboto", sans-serif;
 }
 
 .intro {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
   width: 100%;
   height: 100vh;
+  overflow: hidden;
 
   &__shutter {
     position: absolute;
@@ -70,4 +75,39 @@
   100% {
     bottom: -50%;
   }
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  padding: 5rem;
+  width: 70%;
+  margin: 0 auto;
+
+  &__title {
+    padding: 1rem;
+    position: absolute;
+    transform: translate(-50%, -40%);
+    left: 50%;
+    font-size: 2rem;
+  }
+
+  &__img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.content {
+  & > h3 {
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.footer {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
