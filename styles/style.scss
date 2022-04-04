@@ -86,7 +86,7 @@
     position: absolute;
     transform: translate(-50%, -40%);
     left: 50%;
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
 
   &__img {
@@ -109,29 +109,24 @@
   align-items: flex-end;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .header__img {
-    width: 600px;
+    width: 100%;
   }
 
   .header__title {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 }
 
 @media (max-width: 640px) {
-  .header__img {
-    width: 500px;
-    width: 90%;
-  }
-
   .header__title {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
-@media (max-width: 640px) {
-  .header__img {
-    width: 400px;
+@media (max-width: 435px) {
+  .header__title {
+    font-size: 0.7rem;
   }
 }
