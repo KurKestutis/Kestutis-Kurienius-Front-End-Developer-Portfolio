@@ -16,3 +16,7 @@ const showCookiesMessage = () => {
 
 showCookiesMessage(time);
 setInterval(showCookiesMessage, 1000);
+
+window.onbeforeunload = () => {
+  window.scrollTo(0, 0);
+};
