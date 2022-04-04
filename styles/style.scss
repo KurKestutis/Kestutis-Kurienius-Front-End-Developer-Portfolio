@@ -110,6 +110,9 @@
 }
 
 @media (max-width: 768px) {
+  .body {
+    width: 90%;
+  }
   .header__img {
     width: 100%;
   }
@@ -120,13 +123,27 @@
 }
 
 @media (max-width: 640px) {
+  .header {
+    padding: 3.6rem;
+  }
+
   .header__title {
     font-size: 1rem;
   }
 }
 
 @media (max-width: 435px) {
+  .body {
+    width: 95%;
+  }
+
+  .header {
+    padding: 2.5rem;
+  }
+}
+
+@media (max-width: 365px) {
   .header__title {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 }
