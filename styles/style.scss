@@ -6,8 +6,8 @@
 
 .body {
   min-height: 100vh;
-  margin: 0 auto;
-  width: 80%;
+  // margin: 0 auto;
+  // width: 80%;
   font-family: "roboto", sans-serif;
 }
 
@@ -76,6 +76,15 @@
   }
 }
 
+.cookies {
+  background-color: bisque;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
 .header {
   position: relative;
   text-align: center;
@@ -95,6 +104,11 @@
   }
 }
 
+.main {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .content {
   & > h3 {
     padding-top: 2.5rem;
@@ -110,11 +124,11 @@
 }
 
 @media (max-width: 768px) {
-  .body {
+  .main {
     width: 90%;
   }
   .header__img {
-    width: 100%;
+    width: 90%;
   }
 
   .header__title {
@@ -133,7 +147,7 @@
 }
 
 @media (max-width: 435px) {
-  .body {
+  .main {
     width: 95%;
   }
 
