@@ -6,7 +6,7 @@ window.onbeforeunload = () => {
 
 const intro = document.querySelector(".intro");
 const cookiesMessage = document.querySelector(".cookies");
-const cookiesMessageTimmer = document.querySelector(".cokies__text__seconds");
+const cookiesMessageTimmer = document.querySelector(".cookies__text__seconds");
 const btnCloseCookie = document.querySelector(".btn--close-cookies");
 
 setTimeout(() => {
@@ -20,9 +20,9 @@ btnCloseCookie.addEventListener("click", function () {
 let time = 8;
 const showCookiesMessage = () => {
   if (time >= 1) {
-    time--;
     console.log(time);
     cookiesMessageTimmer.textContent = `${time}`;
+    time--;
   } else {
     cookiesMessage.remove();
   }
