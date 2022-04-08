@@ -90,9 +90,9 @@
   line-height: 1.7rem;
 }
 
-.btn--close-cookies {
+.btn {
   margin-left: 0.5rem;
-  position: absolute;
+  // position: absolute;
   background-color: #fff;
   background-repeat: repeat no-repeat;
   border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
@@ -115,14 +115,15 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  width: 7rem;
 }
 
-.btn--close-cookies:hover {
+.btn:hover {
   box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
   transform: translate3d(0, 2px, 0);
 }
 
-.btn--close-cookies:focus {
+.btn:focus {
   box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
 }
 
@@ -150,6 +151,12 @@
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+
+  &__info {
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
 }
 
 .project {
@@ -158,6 +165,18 @@
   flex-direction: column;
   margin: 0 auto;
   width: 30%;
+
+  &__name {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  &__btn {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+  }
 }
 
 .footer {
@@ -177,12 +196,12 @@
     width: 90%;
   }
 
-  .header__title {
-    font-size: 1.5rem;
-  }
-
   .project {
     width: 40%;
+
+    &__name {
+      font-size: 1rem;
+    }
   }
 }
 
@@ -199,6 +218,12 @@
 @media (max-width: 435px) {
   .main {
     width: 95%;
+    justify-content: center;
+
+    &__info {
+      font-size: 0.5rem;
+      width: 90%;
+    }
   }
 
   .header {
@@ -207,6 +232,11 @@
 
   .project {
     width: 90%;
+    padding: 1rem;
+
+    &__name {
+      font-size: 0.5rem;
+    }
   }
 }
 
