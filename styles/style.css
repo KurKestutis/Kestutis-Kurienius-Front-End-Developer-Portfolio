@@ -232,6 +232,20 @@
   font-size: 0.8rem;
   text-align: center;
   padding: 1rem 0;
+  height: 200%;
+}
+
+.project__img {
+  margin-bottom: 0.5rem;
+  -webkit-box-shadow: -3px 13px 26px -14px rgba(0, 0, 0, 0.74);
+          box-shadow: -3px 13px 26px -14px rgba(0, 0, 0, 0.74);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.project__img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .project__btn {
@@ -292,7 +306,7 @@
             justify-content: center;
   }
   .main__info {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     width: 90%;
   }
   .header {
