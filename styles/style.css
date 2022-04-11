@@ -134,6 +134,8 @@
 }
 
 .btn {
+  text-align: center;
+  text-decoration: none;
   margin-left: 0.5rem;
   background-color: #fff;
   background-repeat: repeat no-repeat;
@@ -144,7 +146,8 @@
           box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  color: #41403e;
+  color: #32312f;
+  border-color: #625d5d;
   cursor: pointer;
   display: inline-block;
   font-family: Neucha, sans-serif;

@@ -91,8 +91,9 @@
 }
 
 .btn {
+  text-align: center;
+  text-decoration: none;
   margin-left: 0.5rem;
-  // position: absolute;
   background-color: #fff;
   background-repeat: repeat no-repeat;
   border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
@@ -100,7 +101,8 @@
   border-width: 2px;
   box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
   box-sizing: border-box;
-  color: #41403e;
+  color: #32312f;
+  border-color: rgb(98, 93, 93);
   cursor: pointer;
   display: inline-block;
   font-family: Neucha, sans-serif;
