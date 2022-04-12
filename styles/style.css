@@ -172,13 +172,13 @@
 .btn:hover {
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
           box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
-  -webkit-transform: translate3d(0, 2px, 0);
-          transform: translate3d(0, 2px, 0);
 }
 
-.btn:focus {
+.btn:active {
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
           box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
+  -webkit-transform: translate3d(0, 4px, 0);
+          transform: translate3d(0, 4px, 0);
 }
 
 .header {
