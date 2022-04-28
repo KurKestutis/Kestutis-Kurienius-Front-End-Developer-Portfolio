@@ -274,7 +274,7 @@
   }
 
   .project {
-    width: 40%;
+    width: 45%;
 
     &__name {
       font-size: 1rem;
@@ -288,6 +288,15 @@
 
     &__title {
       font-size: 1.3rem;
+    }
+  }
+
+  .project {
+    width: 45%;
+    padding: 1rem;
+
+    &__name {
+      font-size: 0.7rem;
     }
   }
 }
@@ -326,7 +335,7 @@
     padding: 1rem;
 
     &__name {
-      font-size: 0.5rem;
+      font-size: 0.6rem;
     }
   }
 }
