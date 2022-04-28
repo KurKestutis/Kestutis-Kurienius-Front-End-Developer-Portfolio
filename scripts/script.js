@@ -20,7 +20,6 @@ btnCloseCookie.addEventListener("click", function () {
 let time = 8;
 const showCookiesMessage = () => {
   if (time >= 1) {
-    console.log(time);
     cookiesMessageTimmer.textContent = `${time}`;
     time--;
   } else {
