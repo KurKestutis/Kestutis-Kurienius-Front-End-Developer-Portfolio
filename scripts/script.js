@@ -7,7 +7,7 @@ window.onbeforeunload = () => {
 const intro = document.querySelector(".intro");
 const cookiesMessage = document.querySelector(".cookies");
 const cookiesMessageTimmer = document.querySelector(".cookies__text__seconds");
-const btnCloseCookie = document.querySelector(".btn--close-cookies");
+const btnCloseCookie = document.querySelector(".cookies__text__btn");
 
 setTimeout(() => {
   intro.remove();
