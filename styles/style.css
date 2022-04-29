@@ -204,6 +204,7 @@
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  height: 80%;
 }
 
 .header__contacts,
@@ -311,6 +312,7 @@
     width: 90%;
   }
   .header__top__img {
+    height: auto;
     width: 90%;
   }
   .header__contacts {

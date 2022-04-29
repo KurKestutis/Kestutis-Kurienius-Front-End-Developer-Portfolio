@@ -148,6 +148,7 @@
     &__img {
       position: absolute;
       transform: translate(-50%, -50%);
+      height: 80%;
     }
   }
 
@@ -239,7 +240,9 @@
   .main {
     width: 90%;
   }
+
   .header__top__img {
+    height: auto;
     width: 90%;
   }
 
