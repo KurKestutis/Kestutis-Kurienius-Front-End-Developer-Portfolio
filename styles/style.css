@@ -253,10 +253,11 @@
   text-align: center;
   display: block;
   width: 100%;
+  padding-bottom: 1rem;
 }
 
 .project {
-  padding: 2rem;
+  padding: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -275,7 +276,7 @@
   height: 200%;
 }
 
-.project__img {
+.project__img-video {
   width: 100%;
   margin-bottom: 0.5rem;
   -webkit-box-shadow: -3px 13px 26px -14px rgba(0, 0, 0, 0.74);
@@ -284,7 +285,7 @@
   transition: all 0.5s ease-in-out;
 }
 
-.project__img:hover {
+.project__img-video:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
